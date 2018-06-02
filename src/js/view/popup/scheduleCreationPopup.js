@@ -157,7 +157,7 @@ ScheduleCreationPopup.prototype._openDropdownMenuView = function(dropdown) {
 /**
  * If click dropdown menu item, close dropdown menu
  * @param {HTMLElement} target click event target
- * @returns {boolean} whether 
+ * @returns {boolean} whether
  */
 ScheduleCreationPopup.prototype._selectDropdownMenuItem = function(target) {
     var itemClassName = config.classname('dropdown-menu-item');
@@ -576,7 +576,7 @@ ScheduleCreationPopup.prototype._createDatepicker = function(start, end) {
         timepicker: {
             showMeridiem: false
         },
-        usageStatistics: true
+        usageStatistics: false
     });
 };
 
