@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet'),
+var util = require('@ivanwei/tui-code-snippet'),
     Handlebars = require('handlebars-template-loader/runtime');
 var dw = require('../common/dw'),
     datetime = require('../common/datetime'),
@@ -139,7 +139,7 @@ var mmin = Math.min;
  * @property {Array.<Calendar>} [calendars=[]] - list of Calendars that can be used to add new schedule
  * @property {boolean} [useCreationPopup=false] - whether use default creation popup or not
  * @property {boolean} [useDetailPopup=false] - whether use default detail popup or not
- * @property {Array.<Timezone>} [timezones] - timezone array. 
+ * @property {Array.<Timezone>} [timezones] - timezone array.
  *  The first Timezone element is primary and can override Calendar#setTimezoneOffset function.
  *  The rest timezone elements are shown in left timegrid of weekly/daily view.
  */
@@ -1060,7 +1060,7 @@ Calendar.prototype._onAfterRenderSchedule = function(scheduleData) {
      * Fire this event by every single schedule after rendering whole calendar.
      * @event Calendar#afterRenderSchedule
      * @type {object}
-     * @property {Schedule} schedule - a rendered schedule instance 
+     * @property {Schedule} schedule - a rendered schedule instance
      * @example
      * calendar.on('afterRenderSchedule', function(event) {
      *     var schedule = event.schedule;
@@ -1140,7 +1140,7 @@ Calendar.prototype._toggleViewSchedule = function(isAttach, view) {
  * calendar.setOptions({week: {startDayOfWeek: 1}}, true);
  * calendar.setOptions({month: {startDayOfWeek: 1}}, true);
  * calendar.changeView(calendar.getViewName(), true);
- * 
+ *
  * // work week
  * calendar.setOptions({week: {workweek: true}}, true);
  * calendar.setOptions({month: {workweek: true}}, true);

@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var config = require('../../config'),
     datetime = require('../../common/datetime'),
     domutil = require('../../common/domutil');

@@ -6,7 +6,7 @@
 
 var View = require('../../view/view');
 var FloatingLayer = require('../../common/floatingLayer');
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var config = require('../../config'),
     domevent = require('../../common/domevent'),
     domutil = require('../../common/domutil');

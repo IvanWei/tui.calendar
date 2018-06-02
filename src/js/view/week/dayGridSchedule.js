@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var Weekday = require('../weekday'),
     tmpl = require('../template/week/dayGridSchedule.hbs');
 var mmax = Math.max;

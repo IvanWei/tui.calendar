@@ -6,7 +6,7 @@
 
 var TZDate = require('./timezone').Date,
     dw = require('../common/dw');
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 /* eslint-disable no-useless-escape */
 var dateFormatRx = /^(\d{4}[-|\/]*\d{2}[-|\/]*\d{2})\s?(\d{2}:\d{2}:\d{2})?$/;
 var datetime, tokenFunc;

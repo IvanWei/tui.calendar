@@ -36,22 +36,22 @@ module.exports = {
         publicPath: '/dist'
     },
     externals: {
-        'tui-code-snippet': {
-            'commonjs': 'tui-code-snippet',
-            'commonjs2': 'tui-code-snippet',
-            'amd': 'tui-code-snippet',
+        '@ivanwei/tui-code-snippet': {
+            'commonjs': '@ivanwei/tui-code-snippet',
+            'commonjs2': '@ivanwei/tui-code-snippet',
+            'amd': '@ivanwei/tui-code-snippet',
             'root': ['tui', 'util']
         },
-        'tui-date-picker': {
-            'commonjs': 'tui-date-picker',
-            'commonjs2': 'tui-date-picker',
-            'amd': 'tui-date-picker',
+        '@ivanwei/tui-date-picker': {
+            'commonjs': '@ivanwei/tui-date-picker',
+            'commonjs2': '@ivanwei/tui-date-picker',
+            'amd': '@ivanwei/tui-date-picker',
             'root': ['tui', 'DatePicker']
         },
-        'tui-time-picker': {
-            'commonjs': 'tui-time-picker',
-            'commonjs2': 'tui-time-picker',
-            'amd': 'tui-time-picker',
+        '@ivanwei/tui-time-picker': {
+            'commonjs': '@ivanwei/tui-time-picker',
+            'commonjs2': '@ivanwei/tui-time-picker',
+            'amd': '@ivanwei/tui-time-picker',
             'root': ['tui', 'TimePicker']
         }
     },

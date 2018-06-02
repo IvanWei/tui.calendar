@@ -5,7 +5,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var Handlebars = require('handlebars-template-loader/runtime');
 var datetime = require('../../common/datetime');
 var common = require('../../common/common');

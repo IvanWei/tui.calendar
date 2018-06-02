@@ -241,17 +241,17 @@ You can also see the older versions of API page on the [releases page](https://g
 
 ## 💬 Contributing
 
-* [Code of Conduct](https://github.com/nhnent/tui.calendar/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing guideline](https://github.com/nhnent/tui.calendar/blob/master/CONTRIBUTING.md)
-* [Issue guideline](https://github.com/nhnent/tui.calendar/blob/master/docs/ISSUE_TEMPLATE.md)
-* [Commit convention](https://github.com/nhnent/tui.calendar/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
+* [Code of Conduct](https://github.com/ivanwei/tui.calendar/blob/master/CODE_OF_CONDUCT.md)
+* [Contributing guideline](https://github.com/ivanwei/tui.calendar/blob/master/CONTRIBUTING.md)
+* [Issue guideline](https://github.com/ivanwei/tui.calendar/blob/master/docs/ISSUE_TEMPLATE.md)
+* [Commit convention](https://github.com/ivanwei/tui.calendar/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
 
 ## 🔩 Dependency
 
-* [tui-code-snippet](https://github.com/nhnent/tui.code-snippet) >= 1.4.0
-* [tui-date-picker](https://github.com/nhnent/tui.date-picker) >= 3.0.0 is optional.
-* [tui-time-picker](https://github.com/nhnent/tui.time-picker) >= 1.0.0 is optional.
+* [@ivanwei/tui-code-snippet](https://github.com/ivanwei/tui.code-snippet) >= 0.0.1
+* [@ivanwei/tui-date-picker](https://github.com/ivanwei/tui.date-picker) >= 0.0.1 is optional.
+* [@ivanwei/tui-time-picker](https://github.com/ivanwei/tui.time-picker) >= 0.0.1 is optional.
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/nhnent/tui.calendar/blob/master/LICENSE) © [NHN Entertainment](https://github.com/nhnent).
+This software is licensed under the [MIT](https://github.com/ivanwei/tui.calendar/blob/master/LICENSE) © [Ivan Wei](https://blog.ivanwei.co).

@@ -5,7 +5,7 @@
 'use strict';
 
 var TZDate = require('../common/timezone').Date;
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var spaceRx = /^\s*|\s*$/g,
     model;
 

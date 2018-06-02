@@ -5,7 +5,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var TZDate = require('../common/timezone').Date;
 var datetime = require('../common/datetime');
 var dirty = require('../common/dirty');

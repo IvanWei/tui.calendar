@@ -6,8 +6,8 @@
 
 var View = require('../../view/view');
 var FloatingLayer = require('../../common/floatingLayer');
-var util = require('tui-code-snippet');
-var DatePicker = require('tui-date-picker');
+var util = require('@ivanwei/tui-code-snippet');
+var DatePicker = require('@ivanwei/tui-date-picker');
 var TZDate = require('../../common/timezone').Date;
 var config = require('../../config'),
     domevent = require('../../common/domevent'),

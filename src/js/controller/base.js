@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var Schedule = require('../model/schedule');
 var ScheduleViewModel = require('../model/viewModel/scheduleViewModel');
 var datetime = require('../common/datetime');
@@ -363,7 +363,7 @@ Base.prototype.setTheme = function(theme) {
  * @property {string|number} id - calendar id
  * @property {string} name - calendar name
  * @property {string} color - text color when schedule is displayed
- * @property {string} bgColor - background color schedule is displayed 
+ * @property {string} bgColor - background color schedule is displayed
  * @property {string} borderColor - color of left border or bullet point when schedule is displayed
  * @property {boolean} [checked] - whether to show calendar's schedules or not
  */

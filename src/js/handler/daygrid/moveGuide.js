@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var config = require('../../config');
 var datetime = require('../../common/datetime');
 var domutil = require('../../common/domutil');
@@ -109,7 +109,7 @@ DayGridMoveGuide.prototype._showOriginScheduleBlocks = function() {
 };
 
 /**
- * Highlight element blocks 
+ * Highlight element blocks
  * @param {Schedule} model - model
  * @param {HTMLElement} parent - parent element
  */

@@ -1,5 +1,5 @@
 /*eslint-disable*/
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var Guide = require('handler/time/moveGuide');
 
 describe('handler/time.move.guide', function() {
@@ -12,7 +12,7 @@ describe('handler/time.move.guide', function() {
             _startGridY: 0,
             _startHeightPixel: 10,    // 1 hour
             _startTopPixel: 0,
-            _model: { 
+            _model: {
                 getStarts: function() {
                     return new Date();
                 },

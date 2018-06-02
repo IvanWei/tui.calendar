@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var themeStandard = require('./standard');
 var themeConfig = require('./themeConfig');
 var common = require('../common/common');
@@ -27,7 +27,7 @@ function Theme(customTheme) {
 /**
  * Get a style with key
  * @param {string} key - key for getting a style
- * @returns {string|undefined} style  
+ * @returns {string|undefined} style
  */
 Theme.prototype.getStyle = function(key) {
     return this._map.get(key);

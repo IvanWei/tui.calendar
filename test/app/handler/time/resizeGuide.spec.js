@@ -1,5 +1,5 @@
 /*eslint-disable*/
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var Guide = require('handler/time/resizeGuide');
 
 describe('handler/time.resize.guide', function() {

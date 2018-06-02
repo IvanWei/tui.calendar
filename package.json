@@ -4,7 +4,7 @@
   "contributors": [
     "NHNEnt FE Development Lab <dl_javascript@nhnent.com>"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/@ivanwei/tui-calendar.js",
   "license": "MIT",
   "description": "TOAST UI Calendar",
@@ -77,7 +77,7 @@
   },
   "dependencies": {
     "@ivanwei/tui-code-snippet": "^0.0.1",
-    "tui-date-picker": "~3.0.0",
-    "tui-time-picker": "^1.0.0"
+    "@ivanwei/tui-date-picker": "^0.0.1",
+    "@ivanwei/tui-time-picker": "^0.0.1"
   }
 }

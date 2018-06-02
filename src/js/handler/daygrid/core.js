@@ -5,7 +5,7 @@
  */
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var domutil = require('../../common/domutil');
 var domevent = require('../../common/domevent');
 var common = require('../../common/common');

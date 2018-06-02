@@ -1,5 +1,5 @@
 /*eslint-disable*/
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var dirty = require('common/dirty');
 
 describe('dirty mixin', function() {

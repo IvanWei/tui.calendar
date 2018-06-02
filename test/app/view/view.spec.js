@@ -1,5 +1,5 @@
 /*eslint-disable*/
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var View = require('view/view');
 
 describe('View', function() {

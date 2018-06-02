@@ -1,6 +1,6 @@
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var VLayout = require('common/vlayout');
 var VPanel = require('common/vpanel');
 

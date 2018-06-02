@@ -1,5 +1,5 @@
 /*eslint-disable*/
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var domutil = require('common/domutil');
 var datetime = require('common/datetime');
 var TimeMove = require('handler/time/move');

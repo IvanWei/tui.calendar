@@ -1,6 +1,6 @@
 'use strict';
 
-var util = require('tui-code-snippet');
+var util = require('@ivanwei/tui-code-snippet');
 var View = require('view/view');
 var Calendar = require('factory/calendar');
 var controllerFactory = require('factory/controller');
